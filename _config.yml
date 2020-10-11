@@ -1,6 +1,6 @@
 name: Miles Van Denburg
 title: Miles Van Denburg Github Website
-logo: "/images/0.jpg" # your photo (or logo) here
+logo: "/images/0.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   First description 
   <br><br>
@@ -10,8 +10,4 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br><br>
   <a href="milesvandenburg.weebly.com">View My Portfolio</a>
   <br><br>
-  <br><br>
-  <br><br>
-
-
 theme: jekyll-theme-minimal
