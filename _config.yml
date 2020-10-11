@@ -1,4 +1,13 @@
-name: Hank Quinlan, Horrible Cop
+name: Miles Van Denburg
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+title: Miles Van Denburg Github Website
+logo: "/images/logo.png?raw=true" # your photo (or logo) here
+description: > # your text below (remove <br> elements if you don't need line breaks)
+  First description 
+  <br><br>
+  Second description 
+  <br><br>
+  <a href="https://www.linkedin.com/in/miles-van-denburg-14068597?trk=nav_responsive_tab_profile_pic">View My LinkedIn Profile</a> 
+  <a href="milesvandenburg.weebly.com">View My Portfolio</a> 
 theme: jekyll-theme-minimal
+google_analytics: UA-000000-0 # your Google Analytics tracking ID here
