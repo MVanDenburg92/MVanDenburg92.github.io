@@ -1,7 +1,3 @@
----
-layout: default_portfolio
-title: Miles Van Denburg
-
 ## Portfolio
 ---
 
