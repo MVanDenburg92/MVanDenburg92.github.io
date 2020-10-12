@@ -4,14 +4,17 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Venue_Name": "40 Watt Club",
         "Address": "285 W Washington St",
         "City": "Athens",
         "State": "GA",
         "Country": "United States",
-        "Zipcode": "30601",
-        "Latitude": "33.958309",
-        "Longitude": "-83.379959"
+        "Zipcode": 30601,
+        "Latitude": 33.958309,
+        "Longitude": -83.379959
       },
       "geometry": {
         "type": "Point",
@@ -144,14 +147,17 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "Venue_Name": "Brighton Bar",
         "Address": "121 Brighton Ave",
         "City": "Long Branch",
         "State": "NJ",
         "Country": "United States",
-        "Zipcode": "7017",
-        "Latitude": "40.284661",
-        "Longitude": "-73.987371"
+        "Zipcode": 7017,
+        "Latitude": 40.284661,
+        "Longitude": -73.987371
       },
       "geometry": {
         "type": "Point",
@@ -224,17 +230,14 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "circle",
         "Venue_Name": "Charm City Art Space",
         "Address": "1731 Maryland Ave",
         "City": "Baltimore",
         "State": "MD",
         "Country": "United States",
-        "Zipcode": 2120,
-        "Latitude": 39.309531,
-        "Longitude": -76.617547
+        "Zipcode": "2120",
+        "Latitude": "39.309531",
+        "Longitude": "-76.617547"
       },
       "geometry": {
         "type": "Point",
@@ -587,17 +590,14 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "circle-stroked",
         "Venue_Name": "Mr. Roboto Project",
         "Address": "5106 Penn Ave",
         "City": "Pittsburgh",
         "State": "PA",
         "Country": "United States",
-        "Zipcode": 15224,
-        "Latitude": 40.464702,
-        "Longitude": -79.942511
+        "Zipcode": "15224",
+        "Latitude": "40.464702",
+        "Longitude": "-79.942511"
       },
       "geometry": {
         "type": "Point",
@@ -630,17 +630,14 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#7d7d7d",
-        "marker-size": "medium",
-        "marker-symbol": "chemist",
         "Venue_Name": "Neo (nightclub)",
         "Address": "2350 N Clark St",
         "City": "Chicago",
         "State": "IL",
         "Country": "United States",
-        "Zipcode": 60614,
-        "Latitude": 41.925054,
-        "Longitude": -87.640579
+        "Zipcode": "60614",
+        "Latitude": "41.925054",
+        "Longitude": "-87.640579"
       },
       "geometry": {
         "type": "Point",
