@@ -15,7 +15,7 @@
 
 ---
 
- <div class="leftProject"><a href="geojson.html"></a>
+ <div><a href="geojson.html"></a>
       <figcaption align="center">
         <h4>Most Popular Punk Venues Scraped from Wikipedia</h4>
         <p>A map made using Leaflet and GeoJSON showing all bus stations in Worcester county.</p>
