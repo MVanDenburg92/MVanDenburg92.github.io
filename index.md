@@ -16,5 +16,4 @@
 ---
 <h2>Most Popular Punk Venues Scraped from Wikipedia</h2>
 <iframe src="geojson.html" frameborder="0" width="125%" height="1000"></iframe>
-
 ---
