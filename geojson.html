@@ -34,20 +34,19 @@
         return L.marker(latlng, { icon: myIcon })
       }
 
+function createPopup(feature, layer) {
+   // does this feature have a property named popupContent?
+  layer.bindPopup(feature.properties.Venue_Name) // show the clicked feature's attribute value in a popup
+   }	
+
     // create an options object that specifies which function will called on each feature
       let myLayerOptions = {
-        pointToLayer: createCustomIcon
+        pointToLayer: createCustomIcon,
+	onEachFeature: createPopup
       }
-      
-	function createPopup(feature, layer) {
-    		// does this feature have a property named popupContent?
-  		layer.bindPopup(feature.properties.Venue_Name) // show the clicked feature's attribute value in a popup
-   		 }	
 		
         // create the GeoJSON layer
-        L.geoJSON(myGeoJSON, myLayerOptions, {
-   	 onEachFeature: createPopup // When each record of data is converted into a feature, call a function to add a popup
- 	 }).addTo(mapGeoJSON);
+        L.geoJSON(myGeoJSON, myLayerOptions).addTo(mapGeoJSON);
       </script>
 	
 	
