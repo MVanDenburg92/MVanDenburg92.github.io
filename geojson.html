@@ -42,11 +42,11 @@ function createPopup(feature, layer) {
     // create an options object that specifies which function will called on each feature
       let myLayerOptions = {
         pointToLayer: createCustomIcon,
-	onEachFeature: createPopup
       }
 		
         // create the GeoJSON layer
-        L.geoJSON(myGeoJSON, myLayerOptions).addTo(mapGeoJSON);
+       var layerGroup = L.geoJSON(myGeoJSON, myLayerOptions,{onEachFeature: createPopup
+							    }).addTo(mapGeoJSON);
       </script>
 	
 	
