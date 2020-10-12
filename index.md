@@ -1,3 +1,10 @@
+<head>
+<style>
+nav ul li {display: inline;margin-right: 20px;}
+footer ul li {display: inline;margin-right: 20px;}
+</style>
+</head>
+
 ## Portfolio
 
 ### Category Name 1 
