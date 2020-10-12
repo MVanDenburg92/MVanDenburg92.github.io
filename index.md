@@ -15,5 +15,7 @@
 
 ---
 <h2>Most Popular Punk Venues Scraped from Wikipedia</h2>
-<iframe src="PunkClubs_Wikipedia.json" frameborder="0" width="125%" height="1000"></iframe>
+<iframe src="PunkClubs_Wikipedia.geojson" frameborder="0" width="125%" height="1000"></iframe>
+<script src="https://embed.github.com/view/geojson/MVanDenburg92/mvandenburg92.github.io/main/PunkClubs_Wikipedia.geojson"></script>
+
 ---
