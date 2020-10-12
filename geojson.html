@@ -41,16 +41,12 @@
       
 	function createPopup(feature, layer) {
     		// does this feature have a property named popupContent?
-   	 if (feature.properties && feature.properties.Venue_Name && feature.properties.Latitude && feature.properties.Longitude) {
-       		 layer.bindPopup(feature.properties.Venue_Name+"("+feature.properties.Latitude+","+feature.properties.Longitude+","+feature.properties.City+", "+feature.properties.State+")",);
-   		 }
-	}		
+  		layer.bindPopup(feature.properties.Venue_Name) // show the clicked feature's attribute value in a popup
+   		 }	
 		
         // create the GeoJSON layer
         L.geoJSON(myGeoJSON, myLayerOptions, {
-   	 onEachFeature: function (feature, layer) {
-		 layer.bindPopup(feature.properties.Venue_Name+"("+feature.properties.Latitude+","+feature.properties.Longitude+","+feature.properties.City+", "+feature.properties.State+")",);
-  } // When each record of data is converted into a feature, call a function to add a popup
+   	 onEachFeature: createPopup // When each record of data is converted into a feature, call a function to add a popup
  	 }).addTo(mapGeoJSON);
       </script>
 	
