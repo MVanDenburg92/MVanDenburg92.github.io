@@ -1,5 +1,6 @@
 ---
 <h1> Web Mapping Demos </h1>
+---
 
 [Geospatial Punk Rock](/sample_page)
 <iframe src="https://uploads.knightlab.com/storymapjs/cff836af3872ba47e508eac759ac2034/lab1-knight-lab/index.html" frameborder="0" width="100%" height="800"></iframe>
