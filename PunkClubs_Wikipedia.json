@@ -587,14 +587,17 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "circle-stroked",
         "Venue_Name": "Mr. Roboto Project",
         "Address": "5106 Penn Ave",
         "City": "Pittsburgh",
         "State": "PA",
         "Country": "United States",
-        "Zipcode": "15224",
-        "Latitude": "40.464702",
-        "Longitude": "-79.942511"
+        "Zipcode": 15224,
+        "Latitude": 40.464702,
+        "Longitude": -79.942511
       },
       "geometry": {
         "type": "Point",
@@ -627,14 +630,17 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#7d7d7d",
+        "marker-size": "medium",
+        "marker-symbol": "chemist",
         "Venue_Name": "Neo (nightclub)",
         "Address": "2350 N Clark St",
         "City": "Chicago",
         "State": "IL",
         "Country": "United States",
-        "Zipcode": "60614",
-        "Latitude": "41.925054",
-        "Longitude": "-87.640579"
+        "Zipcode": 60614,
+        "Latitude": 41.925054,
+        "Longitude": -87.640579
       },
       "geometry": {
         "type": "Point",
