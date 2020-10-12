@@ -4,10 +4,7 @@ logo: "/images/0.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   First description 
   <br><br>
-  <a href="https://www.linkedin.com/in/miles-van-denburg-14068597?trk=nav_responsive_tab_profile_pic">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/miles-van-denburg-14068597?trk=nav_responsive_tab_profile_pic">View My LinkedIn Profile</a><br>
   <br><br>
-  <a href="milesvandenburg.weebly.com">View My Portfolio</a>
-  <br><br>
-  <br><br>
-  <br><br>
+  <a href="milesvandenburg.weebly.com">View My Portfolio</a><br>
 theme: jekyll-theme-minimal
