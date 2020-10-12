@@ -16,7 +16,7 @@
   <h1 id="mapTitle">Most Popular Punk Venues Scraped from Wikipedia<h1>
     <div id="mapFirstGeoJ" style="width: 80%; height: 600px; justify-content: center;"></div>
       <script>
-      var mapGeoJSON = L.map('mapFirstGeoJ').setView([42.2519, -71.8238],12);
+      var mapGeoJSON = L.map('mapFirstGeoJ').setView([0, 0],2);
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 	        maxZoom: 19,
 	        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -27,9 +27,7 @@
       function createCustomIcon (feature, latlng) {
       let myIcon = L.icon({
         iconUrl: 'images/punk_club.png',
-        shadowUrl: 'images/punk_club.png',
-        iconSize:     [25, 25], // width and height of the image in pixels
-        shadowSize:   [35, 20], // width, height of optional shadow image
+        iconSize:     [35, 35], // width and height of the image in pixels
         iconAnchor:   [12, 12], // point of the icon which will correspond to marker's location
         shadowAnchor: [12, 6],  // anchor point of the shadow. should be offset
         popupAnchor:  [0, 0] // point from which the popup should open relative to the iconAnchor
@@ -46,9 +44,6 @@
         // create the GeoJSON layer
         L.geoJSON(myGeoJSON, myLayerOptions).addTo(mapGeoJSON);
       </script>
-  <footer>
-  		<h3 id="contact"><a href="mailto:miles.vandenburg@outlook.com" target="_blank">Email </a>| <a href="https://github.com/mvandenburg92" target="_blank">Github </a>| <a href="https://www.linkedin.com/in/xiangyu-wen-8ba194155/" target="_blank">LinkedIn</a></h3>
-  	</footer>
 
 </body>
 </html>
