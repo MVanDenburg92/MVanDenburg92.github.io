@@ -14,14 +14,7 @@
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=14lqjMhAZeGmkEyaTb8BKc1f0BaQ" width="100%" height="800"></iframe>
 
 ---
-
-<iframe src="geojson.html" width="100%" height="800"></iframe>
- <div><a href="geojson.html"></a>
-      <figcaption align="center">
-        <h4>Most Popular Punk Venues Scraped from Wikipedia</h4>
-        <p>A map made using Leaflet and GeoJSON showing all bus stations in Worcester county.</p>
-      </figcaption>
-      </div>
-
+<h2>Most Popular Punk Venues Scraped from Wikipedia</h2>
+<iframe src="geojson.html" width="100%" height="100%"></iframe>
 
 ---
