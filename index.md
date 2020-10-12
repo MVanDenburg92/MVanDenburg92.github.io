@@ -15,7 +15,7 @@
 
 ---
 
-<iframe src=geojson.html>
+<iframe src="geojson.html" width="100%" height="800"></iframe>
  <div><a href="geojson.html"></a>
       <figcaption align="center">
         <h4>Most Popular Punk Venues Scraped from Wikipedia</h4>
