@@ -11,7 +11,7 @@
 ---
 
 <h2>Google Map Example</h2>
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=14lqjMhAZeGmkEyaTb8BKc1f0BaQ" width="640" height="480"></iframe>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=14lqjMhAZeGmkEyaTb8BKc1f0BaQ" width="100%" height="800"></iframe>
 
 ---
 
