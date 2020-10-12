@@ -15,7 +15,10 @@
 
 ---
 <h2>Most Popular Punk Venues Scraped from Wikipedia</h2>
-<iframe src="geojson.html" frameborder="0" width="100%" height="800"></iframe>
+<iframe src="geojson.html" frameborder="0" width="125%" height="800"></iframe>
+
+<style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style>
+<iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="311_Incidents_Updated" src="geojson.html"></iframe>
 
 
 ---
