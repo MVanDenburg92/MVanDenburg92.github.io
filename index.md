@@ -1,7 +1,5 @@
-<h1>Portfolio</h1>
 ---
-
-### Web Mapping Demos
+<h1> Web Mapping Demos </h1>
 
 [Geospatial Punk Rock](/sample_page)
 <iframe src="https://uploads.knightlab.com/storymapjs/cff836af3872ba47e508eac759ac2034/lab1-knight-lab/index.html" frameborder="0" width="100%" height="800"></iframe>
@@ -13,16 +11,6 @@
 ---
 [GeoJSON](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-
-### Category Name 2
-
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
 
 ---
 
