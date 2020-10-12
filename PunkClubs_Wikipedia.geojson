@@ -4,9 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
         "Venue_Name": "40 Watt Club",
         "Address": "285 W Washington St",
         "City": "Athens",
@@ -147,9 +144,6 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
         "Venue_Name": "Brighton Bar",
         "Address": "121 Brighton Ave",
         "City": "Long Branch",
